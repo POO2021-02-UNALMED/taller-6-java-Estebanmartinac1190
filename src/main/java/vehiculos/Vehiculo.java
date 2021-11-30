@@ -10,7 +10,7 @@ public class Vehiculo {
 	private float peso;
 	private String traccion;
 	private Fabricante fabricante;
-	private static int cantidadVehiculos;
+	private static int cantidadVehiculo;
 	private static ArrayList<Vehiculo> vehiculos = new ArrayList<>();
 	
 	//CONSTRUCTOR 
