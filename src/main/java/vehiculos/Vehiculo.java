@@ -99,7 +99,7 @@ public class Vehiculo {
 	}
 	
 	public static void setCantidadVehiculos(int cantidadVehiculo) {
-		Vehiculo.cantidadVehiculos = cantidadVehiculo; 
+		Vehiculo.cantidadVehiculo = cantidadVehiculo; 
 	}
 	
 	//METODOS EXTRA 
