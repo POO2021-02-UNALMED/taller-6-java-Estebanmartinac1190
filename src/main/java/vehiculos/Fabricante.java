@@ -30,7 +30,7 @@ public class Fabricante {
         this.pais = pais;
     }
     
-    //MÉTODO EXTRA
+    //METODO EXTRA
     public static Fabricante fabricaMayorVentas(){
         ArrayList<Vehiculo> carro = Vehiculo.getVehiculos();
         Hashtable<Fabricante, Integer> paisHash = new Hashtable<>();
