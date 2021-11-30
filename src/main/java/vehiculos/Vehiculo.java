@@ -15,9 +15,9 @@ public class Vehiculo {
 	
 	//CONSTRUCTOR 
 	public Vehiculo(String placa, int puertas, int velocidadMaxima, String nombre, float peso, float precio, String traccion, Fabricante fabricante) {
-		this.nombre = nombre;
+	this.nombre = nombre;
         this.precio = precio;
-		this.placa = placa;
+	this.placa = placa;
         this.puertas = puertas;
         this.velocidadMaxima = velocidadMaxima;
         this.peso = peso;
