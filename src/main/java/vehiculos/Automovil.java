@@ -2,7 +2,7 @@ package vehiculos;
 import java.util.ArrayList;
 public class Automovil extends Vehiculo{
     //ATRIBUTOS
-	protected static int cantidadAutomovil;
+    protected static int cantidadAutomovil;
     private int puestos;
     
     //CONSTRUCTOR
