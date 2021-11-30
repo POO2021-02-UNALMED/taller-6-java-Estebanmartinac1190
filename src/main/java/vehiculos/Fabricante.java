@@ -30,14 +30,14 @@ public class Fabricante {
         this.pais = pais;
     }
     
-    //MÉTODO EXTRA
+    //METODO EXTRA
     public static Fabricante fabricaMayorVentas(){
-        ArrayList<Vehiculo> carro = Vehiculo.getVehiculos();
+        ArrayList<Vehiculo> vehiculos = Vehiculo.getVehiculos();
         Hashtable<Fabricante, Integer> paisHash = new Hashtable<>();
         Fabricante fabSeleccionado=null;
 
 
-        for (Vehiculo vehiculo : carro) {
+        for (Vehiculo vehiculo : vehiculos) {
             fabSeleccionado = vehiculo.getFabricante();
             if (paisHash.containsKey(fabSeleccionado)) {
                 paisHash.put(fabSeleccionado, paisHash.get(fabSeleccionado) + 1);
@@ -46,8 +46,8 @@ public class Fabricante {
                 paisHash.put(fabSeleccionado, 1);
             }
         }
-        int canitidadMax = paisHash.get(carro.get(0).getFabricante());
-        Fabricante Max = carro.get(0).getFabricante();
+        int canitidadMax = paisHash.get(vehiculos.get(0).getFabricante());
+        Fabricante Max = vehiculos.get(0).getFabricante();
         for (Fabricante fab : paisHash.keySet()) {
             int cant = paisHash.get(fab);
             if (cant > canitidadMax) {

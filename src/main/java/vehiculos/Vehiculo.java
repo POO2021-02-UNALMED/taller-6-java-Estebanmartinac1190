@@ -10,7 +10,7 @@ public class Vehiculo {
 	private float peso;
 	private String traccion;
 	private Fabricante fabricante;
-	private static int cantidadVehiculos;
+	private static int cantidadVehiculo;
 	private static ArrayList<Vehiculo> vehiculos = new ArrayList<>();
 	
 	//CONSTRUCTOR 
@@ -99,7 +99,7 @@ public class Vehiculo {
 	}
 	
 	public static void setCantidadVehiculos(int cantidadVehiculo) {
-		Vehiculo.cantidadVehiculos = cantidadVehiculo; 
+		Vehiculo.cantidadVehiculo = cantidadVehiculo; 
 	}
 	
 	//METODOS EXTRA 
@@ -108,4 +108,5 @@ public class Vehiculo {
         return  "Automoviles: " + Automovil.getCantidadAutomoviles() +
                 "\nCamionetas: " + Camioneta.getCantidadCamionetas() +
                 "\nCamiones: " + Camion.getCantidadCamiones();	
+}
 }

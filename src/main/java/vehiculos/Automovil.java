@@ -19,6 +19,7 @@ public class Automovil extends Vehiculo{
     
     public static int getCantidadAutomoviles() {
         return cantidadAutomovil;
+    }
       
     
     //SET    
