@@ -2,7 +2,7 @@ package vehiculos;
 
 public class Camioneta extends Vehiculo{
 	//ATRIBUTOS
-	private  boolean volco;
+    private  boolean volco;
     private static int cantidadCamioneta;
     
     //CONSTRUCTOR
